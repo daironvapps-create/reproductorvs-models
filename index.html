@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reproductor VS – Política de privacidad / Privacy Policy</title>
+<style>
+  :root { --bg:#fff; --fg:#1b1b24; --dim:#5b5b6b; --acc:#4b3fd1; --line:#e3e3ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12121a; --fg:#ececf4; --dim:#a4a4b8; --acc:#9c90ff; --line:#2a2a3a; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; margin:0; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:1.7rem; margin:.2em 0; }
+  h2 { font-size:1.2rem; margin:1.8em 0 .4em; padding-top:.6em; border-top:1px solid var(--line); }
+  a { color:var(--acc); }
+  .dim { color:var(--dim); font-size:.9rem; }
+  nav a { margin-right:12px; font-weight:600; }
+  table { border-collapse:collapse; width:100%; font-size:.93rem; }
+  td, th { border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
+  hr.big { border:0; border-top:3px solid var(--acc); margin:56px 0 24px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#es">Español</a><a href="#en">English</a></nav>
+
+<!-- ===================== ESPAÑOL ===================== -->
+<section id="es" lang="es">
+<h1>Política de privacidad de Reproductor VS</h1>
+<p class="dim">Desarrollador: DaironApps · Vigente desde el 24 de octubre de 2026 · Contacto: <a href="mailto:[TU_CORREO]">[TU_CORREO]</a></p>
+
+<p>Reproductor VS («la app») es un reproductor de música para Android con asistente de voz. Esta política explica qué información usa la app, para qué, y con quién se comparte. En resumen: <strong>la app no tiene cuentas, no contiene publicidad ni analíticas, y tu música y tus listas se quedan en tu teléfono</strong>.</p>
+
+<h2>1. Información que se guarda en tu teléfono</h2>
+<p>La app guarda en tu dispositivo, y solo en él: la lista de tus canciones (leída del almacenamiento del teléfono), tus favoritas y listas de reproducción, estadísticas de escucha (reproducciones y tiempo escuchado), tus ajustes, las letras ya descargadas y un registro técnico del asistente de voz. Esta información no se envía a ningún servidor del desarrollador, porque el desarrollador no tiene servidores para la app. Se elimina al desinstalar la app o al borrar sus datos desde los ajustes de Android.</p>
+
+<h2>2. Permisos y para qué se usan</h2>
+<table>
+<tr><th>Permiso</th><th>Uso</th></tr>
+<tr><td>Audio / archivos de música</td><td>Leer y reproducir las canciones de tu teléfono. Borrar una canción solo ocurre si tú lo pides.</td></tr>
+<tr><td>Notificaciones y servicio en primer plano</td><td>Controles de reproducción y aviso del asistente de voz cuando está activo.</td></tr>
+<tr><td>Micrófono</td><td>Solo si activas los comandos de voz. Ver sección 3.</td></tr>
+<tr><td>Cámara</td><td>Solo para escanear el código QR al recibir música de otro teléfono. No se guardan fotos ni video.</td></tr>
+<tr><td>Dispositivos cercanos, Bluetooth, Wi-Fi y ubicación</td><td>Solo para encontrar y conectar con otro teléfono durante una transferencia. Android exige el permiso de ubicación para esta función; <strong>la app no lee, usa ni guarda tu ubicación</strong>.</td></tr>
+<tr><td>Inicio del sistema</td><td>Si dejaste activado el asistente, ofrecer reactivarlo tras reiniciar el teléfono.</td></tr>
+<tr><td>Mantener activo el procesador</td><td>Evitar que el sistema corte la escucha o la reproducción con la pantalla apagada.</td></tr>
+<tr><td>Internet</td><td>Descargar letras y los modelos de voz (sección 4).</td></tr>
+</table>
+
+<h2>3. Asistente de voz y micrófono</h2>
+<p>El micrófono solo se usa mientras activas el asistente de voz, y se ve una notificación permanente mientras esté escuchando. La detección de la frase de activación se hace <strong>dentro del teléfono</strong> con un modelo de reconocimiento sin conexión; el audio no se graba, no se guarda y no se envía.</p>
+<p>Después de la frase de activación, la orden que dices (por ejemplo «pon música de…») la transcribe el <strong>servicio de reconocimiento de voz de Android</strong> instalado en tu teléfono (normalmente el de Google). Según tu teléfono y el idioma descargado, ese servicio puede procesar el audio en el dispositivo o enviarlo a sus servidores; eso se rige por la política de privacidad de ese proveedor, no por esta app. La app solo recibe el texto resultante y lo usa para ejecutar la orden.</p>
+
+<h2>4. Conexiones a internet</h2>
+<ul>
+<li><strong>Letras:</strong> para buscar la letra de una canción, la app envía su título, artista, álbum y duración al servicio público <a href="https://lrclib.net">LRCLIB</a>. Como en cualquier conexión a internet, ese servicio puede ver tu dirección IP. La letra encontrada se guarda en tu teléfono.</li>
+<li><strong>Modelos de voz:</strong> al elegir un idioma para la voz, la app descarga un modelo de reconocimiento desde GitHub. GitHub puede ver tu dirección IP al servir el archivo.</li>
+</ul>
+
+<h2>5. Transferencia entre teléfonos</h2>
+<p>Cuando envías música o listas a otro teléfono, los archivos viajan directamente entre los dos dispositivos con la tecnología Nearby Connections de Google Play services. No pasan por internet ni por servidores del desarrollador, y solo se envía lo que tú eliges al teléfono que escanea tu código QR.</p>
+
+<h2>6. Lo que no hacemos</h2>
+<p>La app no tiene cuentas, no pide datos personales, no incluye analíticas ni publicidad, no vende ni comparte tus datos y no hace perfiles. Si en el futuro se añadiera publicidad, esta política se actualizaría antes y se explicaría qué datos usa el proveedor de anuncios.</p>
+
+<h2>7. Niños</h2>
+<p>La app no está dirigida a menores de 13 años y no recopila conscientemente información de ellos.</p>
+
+<h2>8. Tus decisiones</h2>
+<p>Puedes retirar cualquier permiso en los ajustes de Android, apagar los comandos de voz en la app, borrar los modelos de voz descargados desde el asistente de voz y borrar todos los datos de la app o desinstalarla.</p>
+
+<h2>9. Cambios</h2>
+<p>Si esta política cambia, se publicará aquí con una nueva fecha de vigencia.</p>
+
+<h2>10. Contacto</h2>
+<p>Para preguntas sobre privacidad: <a href="mailto:[TU_CORREO]">[TU_CORREO]</a>.</p>
+</section>
+
+<hr class="big">
+
+<!-- ===================== ENGLISH ===================== -->
+<section id="en" lang="en">
+<h1>Reproductor VS Privacy Policy</h1>
+<p class="dim">Developer: DaironApps · Effective October 24, 2026 · Contact: <a href="mailto:[TU_CORREO]">[TU_CORREO]</a></p>
+
+<p>Reproductor VS (“the app”) is an Android music player with a voice assistant. This policy explains what information the app uses, why, and who it is shared with. In short: <strong>the app has no accounts, no ads and no analytics, and your music and playlists stay on your phone</strong>.</p>
+
+<h2>1. Information stored on your phone</h2>
+<p>The app stores on your device, and only there: your song list (read from the phone's storage), favorites and playlists, listening statistics (play counts and time listened), your settings, lyrics you already downloaded and a technical log of the voice assistant. This information is not sent to any server of the developer, because the developer runs no servers for the app. It is removed when you uninstall the app or clear its data in Android settings.</p>
+
+<h2>2. Permissions and what they are for</h2>
+<table>
+<tr><th>Permission</th><th>Use</th></tr>
+<tr><td>Audio / music files</td><td>Read and play the songs on your phone. A song is deleted only if you ask for it.</td></tr>
+<tr><td>Notifications and foreground service</td><td>Playback controls and a notice from the voice assistant while it is active.</td></tr>
+<tr><td>Microphone</td><td>Only if you turn on voice commands. See section 3.</td></tr>
+<tr><td>Camera</td><td>Only to scan the QR code when receiving music from another phone. No photos or video are saved.</td></tr>
+<tr><td>Nearby devices, Bluetooth, Wi-Fi and location</td><td>Only to find and connect to another phone during a transfer. Android requires the location permission for this feature; <strong>the app does not read, use or store your location</strong>.</td></tr>
+<tr><td>Boot completed</td><td>If you left the assistant on, offer to re-enable it after the phone restarts.</td></tr>
+<tr><td>Keep the processor awake</td><td>Prevent the system from cutting off listening or playback with the screen off.</td></tr>
+<tr><td>Internet</td><td>Download lyrics and voice models (section 4).</td></tr>
+</table>
+
+<h2>3. Voice assistant and microphone</h2>
+<p>The microphone is used only while you have the voice assistant turned on, and a permanent notification is shown while it is listening. Detection of the wake phrase happens <strong>inside your phone</strong> with an offline recognition model; the audio is not recorded, stored or sent.</p>
+<p>After the wake phrase, the command you say (for example “play music by…”) is transcribed by the <strong>Android speech recognition service</strong> installed on your phone (usually Google's). Depending on your phone and the downloaded language, that service may process the audio on the device or send it to its servers; this is governed by that provider's privacy policy, not by this app. The app only receives the resulting text and uses it to carry out the command.</p>
+
+<h2>4. Internet connections</h2>
+<ul>
+<li><strong>Lyrics:</strong> to look up a song's lyrics, the app sends its title, artist, album and duration to the public service <a href="https://lrclib.net">LRCLIB</a>. As with any internet connection, that service can see your IP address. The lyrics found are stored on your phone.</li>
+<li><strong>Voice models:</strong> when you choose a voice language, the app downloads a recognition model from GitHub. GitHub can see your IP address when serving the file.</li>
+</ul>
+
+<h2>5. Phone-to-phone transfer</h2>
+<p>When you send music or playlists to another phone, the files travel directly between the two devices using Google Play services' Nearby Connections. They do not go through the internet or any developer server, and only what you choose is sent to the phone that scans your QR code.</p>
+
+<h2>6. What we do not do</h2>
+<p>The app has no accounts, asks for no personal data, includes no analytics or advertising, does not sell or share your data and does not build profiles. If advertising were added in the future, this policy would be updated first and would explain what data the ad provider uses.</p>
+
+<h2>7. Children</h2>
+<p>The app is not directed to children under 13 and does not knowingly collect information from them.</p>
+
+<h2>8. Your choices</h2>
+<p>You can withdraw any permission in Android settings, turn voice commands off in the app, delete downloaded voice models from the voice assistant screen, and clear all of the app's data or uninstall it.</p>
+
+<h2>9. Changes</h2>
+<p>If this policy changes, it will be posted here with a new effective date.</p>
+
+<h2>10. Contact</h2>
+<p>For privacy questions: <a href="mailto:[TU_CORREO]">[TU_CORREO]</a>.</p>
+</section>
+</main>
+</body>
+</html>
